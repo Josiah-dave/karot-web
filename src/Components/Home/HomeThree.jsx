@@ -21,8 +21,8 @@ function HomeThree() {
       <Banner />
       <Brands />
       <About />
-      <CourseSection />
-      <Team />
+      {/* <CourseSection /> */}
+      {/* <Team /> */}
       <Testimonial />
       <Event />
       <CourseBlock />

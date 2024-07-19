@@ -23,37 +23,52 @@ const About = () => {
             </div>
             <ul className=" list-item space-y-6 pt-8">
               <li className="flex">
-                <div className="flex-none mr-6">
+                <div className="flex-none mr-4">
                   <div className="h-20 w-20 rounded-full bg-white  shadow-box10 flex flex-col justify-center items-center">
                     <img src={videoIcon} alt="" className="" />
                   </div>
                 </div>
                 <div className="flex-1">
                   <h4 className=" text-xl mb-1">
-                    All classNamees Video Provided
+                  Join our learners community
                   </h4>
                   <div>
-                    There are many variations of passages of the Lorem Ipsum
-                    available.
+                  Join thousands of young people on our Q&A forum. Ask questions, gain points, and convert them to money.
                   </div>
                 </div>
               </li>
               <li className="flex">
-                <div className="flex-none mr-6">
+                <div className="flex-none mr-4">
                   <div className="h-20 w-20 rounded-full bg-white  shadow-box10 flex flex-col justify-center items-center">
                     <img src={whiteWebIcon} alt="" className=" " />
                   </div>
                 </div>
                 <div className="flex-1">
                   <h4 className=" text-xl mb-1">
-                    Online className From Expert Teachers
+                  Build a wealth of knowledge
                   </h4>
                   <div>
-                    There are many variations of passages of the Lorem Ipsum
-                    available.
+               Enjoy unlimited access to concise soft skills and financial education content on Karot.
                   </div>
                 </div>
               </li>
+
+              <li className="flex">
+                <div className="flex-none mr-4">
+                  <div className="h-20 w-20 rounded-full bg-white  shadow-box10 flex flex-col justify-center items-center">
+                    <img src={videoIcon} alt="" className="" />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h4 className=" text-xl mb-1">
+                  Invest and manage money
+                  </h4>
+                  <div>
+                  With parental supervision, you can manage, spend, and invest your money.
+                  </div>
+                </div>
+              </li>
+
             </ul>
           </div>
         </div>

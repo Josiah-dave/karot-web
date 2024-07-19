@@ -65,20 +65,20 @@ const Footer = () => {
               <div className="flex-1 lg:flex-none">
                 <h4 className="mb-8 text-2xl font-bold text-white">Features</h4>
                 <ul className="list-item space-y-5">
-                  <li>
-                    <a href="#">Invest</a>
+                  <li className="hover:text-white transition-all duration-500">
+                    Invest
                   </li>
-                  <li>
-                    <a href="#">Save money</a>
+                  <li className="hover:text-white transition-all duration-500">
+                    Save money
                   </li>
-                  <li>
-                    <a href="#">Earn money</a>
+                  <li className="hover:text-white transition-all duration-500">
+                    Earn money
                   </li>
-                  <li>
-                    <a href="#">Chores</a>
+                  <li className="hover:text-white transition-all duration-500">
+                    Chores
                   </li>
-                  <li>
-                    <a href="#">Set goals</a>
+                  <li className="hover:text-white transition-all duration-500">
+                    Set goals
                   </li>
                   {/* <li>
                     <a href="#">Blog</a>
@@ -88,14 +88,14 @@ const Footer = () => {
               <div className="flex-1 lg:flex-none">
                 <h4 className="mb-8 text-2xl font-bold text-white">Learn</h4>
                 <ul className="list-item space-y-5">
-                  <li>
-                    <a href="#">Soft skills</a>
+                  <li className="hover:text-white transition-all duration-500">
+                    Soft skills
                   </li>
-                  <li>
-                    <a href="#">Graphics</a>
+                  <li className="hover:text-white transition-all duration-500">
+                    Graphics
                   </li>
-                  <li>
-                    <a href="#">Coding</a>
+                  <li className="hover:text-white transition-all duration-500">
+                    Coding
                   </li>
                
                 </ul>

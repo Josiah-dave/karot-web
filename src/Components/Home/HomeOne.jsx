@@ -29,7 +29,7 @@ const HomeOne = () => {
       <NewsLetter />
       <Topics />
       <Testimonials />
-      <Team />
+      {/* <Team /> */}
       {/* <Blogs /> */}
       <Footer />
     </>

@@ -4271,7 +4271,7 @@ ul ul > li.menu-item-has-children:hover > a:after {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(255 126 132 / var(--tw-text-opacity));
+  color: #FF7F29;
 }
 
 .text-secondary {

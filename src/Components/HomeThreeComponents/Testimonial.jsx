@@ -19,7 +19,10 @@ const Testimonial = () => {
         }}
         spaceBetween={30}
         loop
+        onDurationChange={true}
+      
         effect={"creative"}
+        autoplay = {true}
         creativeEffect={{
           prev: {
             shadow: true,
@@ -33,44 +36,41 @@ const Testimonial = () => {
         modules={[Navigation, EffectCreative]}
         className="container"
       >
-        <SwiperSlide className="grid  lg:grid-cols-2 grid-cols-1  xl:gap-[60px] gap-6">
+        <SwiperSlide className="grid  lg:grid-cols-2 grid-cols-1  xl:gap-[60px] gap-6  place-items-center">
           <div>
             <div className="slider-nav">
               <div className="single-item">
                 <div className="xl:h-[593px] lg:h-[400px] h-[150px] lg:w-full w-[150px] rounded-md">
                   <img
-                    src={t1}
+                    src={'https://res.cloudinary.com/karotcloud/image/upload/v1720733291/Landing%20page%20images/wpxad189lecchiynjnaj.png'}
                     alt=""
-                    className=" object-cover w-full h-full rounded-md"
+                    className=" object-contain w-full h-full rounded-md"
                   />
                 </div>
               </div>
             </div>
           </div>
           <div>
-            <div className="mini-title">Testimonial</div>
+            {/* <div className="mini-title">Testimonial</div> */}
             <h4 className="column-title ">
-              Our Tallented Students Valuable
-              <span className="shape-bg text-black">Feedback</span>
+            SOFT  <span className="shape-bg text-black"> SKILLS </span>
             </h4>
             <div className="slider-for mt-10">
               <div className="single-item">
                 <div>
                   <h3 className=" text-2xl font-bold text-black mb-8">
-                    “It’s Truly The Best Solution For Me”
+                  Transforming lives by mastering skills
                   </h3>
                   <div className="mb-8">
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered. There are many
-                    variations of passages of Lorem Ipsum available, but the
-                    majority have suffered alteration.
+                  Our programs are crafted to help users conveniently master life transforming skills in a fun and interactive learning environment.
                   </div>
                   <div>
-                    <span className=" block  font-semibold text-black mb-1">
+                    {/* <span className=" block  font-semibold text-black mb-1">
                       Alfred Helmerich
-                    </span>
+                    </span> */}
                     <span className=" block  font-semibold text-primary">
-                      Executive Training Manager
+                    Join the #1 soft-skill development platform
+for young learners in Africa
                     </span>
                   </div>
                 </div>
@@ -93,10 +93,11 @@ const Testimonial = () => {
             </div>
           </div>
           <div>
-            <div className="mini-title">Testimonial</div>
+            {/* <div className="mini-title">Testimonial</div> */}
             <h4 className="column-title ">
-              Our Tallented Students Valuable
-              <span className="shape-bg text-black">Feedback</span>
+             {/* SOFT SKILLS */}
+
+              <span className="shape-bg text-black">GROWTH</span>
             </h4>
             <div className="slider-for mt-10">
               <div className="single-item">
