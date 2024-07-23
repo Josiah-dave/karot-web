@@ -1,167 +1,169 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import {
-  fbIcon,
-  footerLogo2,
-  insIcon,
-  pnIcon,
-  twIcon,
-  insIcon1,
-  insIcon2,
-  insIcon3,
-  insIcon4,
-  insIcon5,
-  insIcon6,
-} from "../../constant/images";
+
 
 const Footer = () => {
+  const updatedDate = new Date().getFullYear();
   return (
-    <footer>
-      <div className="relative z-[1] mx-auto max-w-[1170px] rounded-md bg-[url('../images/all-img/section-bg-3.png')] bg-cover bg-center bg-no-repeat p-20">
-        <div className="items-center space-x-4 space-y-5 text-center lg:flex lg:space-y-0 lg:text-left">
-          <div className="flex-1">
-            <div className="max-w-[590px] text-3xl font-bold text-white md:text-3xl lg:text-[44px] lg:leading-[61px]">
-              Education Is About Creating Leaders For Tomorrow
+    <footer className="bg-black bg-[url('../images/all-img/footer-bg-1.png')] bg-cover bg-center bg-no-repeat">
+      <div className="section-padding container">
+        <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div className="single-footer">
+            <div className="lg:max-w-[270px]">
+              <a href="#" className="mb-10 block">
+                <img src={'https://res.cloudinary.com/karotcloud/image/upload/v1720734669/Landing%20page%20images/pd4ospcbocspazcytonv.svg'} alt="" />
+              </a>
+              <p>
+              Raising money-smart kids.
+              </p>
+              <div className="flex gap-5 my-2">
+                <img className=" cursor-pointer" width={'40%'} src="https://res.cloudinary.com/karotcloud/image/upload/v1720748292/Landing%20page%20images/wwae9edkln9i5pm5trxk.svg" alt="" />
+                <img className=" cursor-pointer" width={'40%'} src="https://res.cloudinary.com/karotcloud/image/upload/v1720748290/Landing%20page%20images/p03b2krzys5zbrjuda82.svg" alt="" />
+              </div>
+              <ul className="flex space-x-4 pt-8">
+                <li>
+                  <a
+                    href="#"
+                    className="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white
+                  transition hover:bg-primary hover:text-white"
+                  >
+                    <iconify-icon icon="bxl:facebook"></iconify-icon>
+                  </a>
+                </li>
+                {/* <li>
+                  <a
+                    href="#"
+                    className="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white
+                  transition hover:bg-primary hover:text-white"
+                  >
+                    <iconify-icon icon="bxl:twitter"></iconify-icon>
+                  </a>
+                </li> */}
+                <li>
+                  <a
+                    href="#"
+                    className="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white
+                  transition hover:bg-primary hover:text-white"
+                  >
+                    <iconify-icon icon="bxl:youtube"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white
+                  transition hover:bg-primary hover:text-white"
+                  >
+                    <iconify-icon icon="bxl:instagram"></iconify-icon>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div className="flex-none">
-            <button className="btn bg-white font-bold text-black">
-              Register Today
-            </button>
-          </div>
-        </div>
-      </div>
-      <div className="-mt-[150px] bg-[url('../images/all-img/section-bg-10.png')] bg-cover bg-center bg-no-repeat pt-[150px]">
-        <div className="section-padding container">
-          <div className="grid grid-cols-12 gap-5">
-            <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-3">
-              <div className="lg:max-w-[270px]">
-                <a href="#" className="mb-10 block">
-                  <img src={footerLogo2} alt="" />
-                </a>
-                <p>
-                  Lorem ipsum amet, consectetur adipiscing elit. Suspendis
-                  varius enim eros elementum tristique. Duis cursus.
-                </p>
-                <ul className="flex space-x-4 pt-8">
+          <div className="single-footer">
+            <div className="flex space-x-[100px]">
+              <div className="flex-1 lg:flex-none">
+                <h4 className="mb-8 text-2xl font-bold text-white">Features</h4>
+                <ul className="list-item space-y-5">
+                  <li className="hover:text-white transition-all duration-500">
+                    Invest
+                  </li>
+                  <li className="hover:text-white transition-all duration-500">
+                    Save money
+                  </li>
+                  <li className="hover:text-white transition-all duration-500">
+                    Earn money
+                  </li>
+                  <li className="hover:text-white transition-all duration-500">
+                    Chores
+                  </li>
+                  <li className="hover:text-white transition-all duration-500">
+                    Set goals
+                  </li>
+                  {/* <li>
+                    <a href="#">Blog</a>
+                  </li> */}
+                </ul>
+              </div>
+              <div className="flex-1 lg:flex-none">
+                <h4 className="mb-8 text-2xl font-bold text-white">Learn</h4>
+                <ul className="list-item space-y-5">
+                  <li className="hover:text-white transition-all duration-500">
+                    Soft skills
+                  </li>
+                  <li className="hover:text-white transition-all duration-500">
+                    Graphics
+                  </li>
+                  <li className="hover:text-white transition-all duration-500">
+                    Coding
+                  </li>
+               
+                </ul>
+              </div>
+
+              <div className="flex-1 lg:flex-none">
+                <h4 className="mb-8 text-2xl font-bold text-white">Resources</h4>
+                <ul className="list-item space-y-5">
                   <li>
-                    <a href="#" className="flex h-10 w-10">
-                      <img src={fbIcon} alt="" />
-                    </a>
+                    <a href="#">Blog</a>
                   </li>
                   <li>
-                    <a href="#" className="flex h-10 w-10">
-                      <img src={twIcon} alt="" />
-                    </a>
+                    <a href="#">eBooks</a>
                   </li>
                   <li>
-                    <a href="#" className="flex h-10 w-10">
-                      <img src={pnIcon} alt="" />
-                    </a>
+                    <a href="#">Guides</a>
+                  </li>
+               
+                </ul>
+              </div>
+              <div className="flex-1 lg:flex-none">
+                <h4 className="mb-8 text-2xl font-bold text-white">Support</h4>
+                <ul className="list-item space-y-5">
+                  <li>
+                    <a href="#">Pricing</a>
                   </li>
                   <li>
-                    <a href="#" className="flex h-10 w-10">
-                      <img src={insIcon} alt="" />
-                    </a>
+                    <a href="#">Overview</a>
                   </li>
+                  <li>
+                    <a href="#">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+               
                 </ul>
               </div>
             </div>
-            <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-6">
-              <div className="ml-auto xl:w-[80%]">
-                <div className="flex space-x-[80px]">
-                  <div className="flex-1 lg:flex-none">
-                    <h4 className="mb-8 text-2xl font-bold text-black">
-                      Links
-                    </h4>
-                    <ul className="list-item space-y-5">
-                      <li>
-                        <a href="#">Home</a>
-                      </li>
-                      <li>
-                        <a href="#">About Us</a>
-                      </li>
-                      <li>
-                        <a href="#">Pricing</a>
-                      </li>
-                      <li>
-                        <a href="#">Courses</a>
-                      </li>
-                      <li>
-                        <a href="#">Contact Us</a>
-                      </li>
-                      <li>
-                        <a href="#">Blog</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="flex-1 lg:flex-none">
-                    <h4 className="mb-8 text-2xl font-bold text-black">
-                      Legal
-                    </h4>
-                    <ul className="list-item space-y-5">
-                      <li>
-                        <a href="#">Legal</a>
-                      </li>
-                      <li>
-                        <a href="#">Tearms of Use</a>
-                      </li>
-                      <li>
-                        <a href="#">Tearm & Condition</a>
-                      </li>
-                      <li>
-                        <a href="#">Payment Method</a>
-                      </li>
-                      <li>
-                        <a href="#">Privacy Policy</a>
-                      </li>
-                      <li>
-                        <a href="#">Privacy Policy</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="single-footer col-span-12 lg:col-span-6 xl:col-span-3">
-              <h4 className="mb-8 text-2xl font-bold text-black">
-                Instagram Post
-              </h4>
-              <div className="grid grid-cols-3 gap-4">
-                {[
-                  insIcon1,
-                  insIcon2,
-                  insIcon3,
-                  insIcon4,
-                  insIcon5,
-                  insIcon6,
-                ].map((item, index) => (
-                  <div key={index}>
-                    <a
-                      href="#"
-                      className="group relative block h-20 w-full rounded"
-                    >
-                      <img
-                        src={item}
-                        alt=""
-                        className="block h-full w-full rounded object-cover"
-                      />
-                      <div className="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
-                        <span className="scale-0 transition-all duration-150 group-hover:scale-100">
-                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
-                        </span>
-                      </div>
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
+          {/* <div className="single-footer">
+            <h4 className="mb-8 text-2xl font-bold text-white">Newsletter</h4>
+            <div className="mb-8">
+              Join over <span className="text-primary underline">68,000</span>{" "}
+              people getting our emails Lorem ipsum dolor sit amet consectet
+            </div>
+            <div className="mb-4 flex items-center rounded-md bg-white py-[10px] pr-[10px] pl-6 shadow-e1">
+              <div className="flex-none">
+                <span className=" ">
+                  <img src="assets/images/icon/mail.svg" alt="" />
+                </span>
+              </div>
+              <div className="flex-1">
+                <input
+                  type="text"
+                  placeholder="Enter your mail"
+                  className="border-none focus:ring-0"
+                />
+              </div>
+            </div>
+            <button className="btn btn-primary block w-full text-center">
+              Subscribe Now
+            </button>
+          </div> */}
         </div>
-
-        <div className="container border-t border-[#E9D4D0] py-8 text-center text-base">
-          &copy; Copyright 2022 | Edumim Template | All Rights Reserved
-        </div>
+      </div>
+      <div className="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
+        &copy; Copyright {updatedDate} | getKarot.com | All Rights Reserved
       </div>
     </footer>
   );

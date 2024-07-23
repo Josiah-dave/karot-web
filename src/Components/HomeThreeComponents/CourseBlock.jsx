@@ -9,31 +9,31 @@ const CourseBlock = () => {
     >
       <div className="container">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-7">
-          <div className="bg-[url('../images/all-img/bg-ins-1.png')] bg-cover  bg-no-repeat p-10  rounded-md">
+          <div className="bg-[url('https://res.cloudinary.com/karotcloud/image/upload/v1721716595/card_1_ynfikm.png')] bg-cover  bg-no-repeat p-10  rounded-md">
             <div className="max-w-[337px]">
-              <div className="mini-title">Build Your Career</div>
+              <div className="mini-title">Build a Wealth of Knowledge</div>
               <div className=" text-[34px] text-black leading-[51px]">
-                Become an <span className="shape-bg"> Instructor</span>
+                Get Unlimited <span className="shape-bg"> Access</span>
               </div>
               <div className=" mt-6 mb-12">
-                Learn at your own pace, move the between multiple courses.
+                Get unlimited acces to bite-sized soft skill and financial education content on Karot
               </div>
               <a href="#" className="btn btn-primary">
-                Apply Now
+                Start Learning
               </a>
             </div>
           </div>
-          <div className="bg-[url('../images/all-img/bg-ins-2.png')]  bg-no-repeat p-10 bg-cover rounded-md">
+          <div className="bg-[url('https://res.cloudinary.com/karotcloud/image/upload/v1721716595/card_2_gicyme.png')]  bg-no-repeat p-10 bg-cover rounded-md">
             <div className="max-w-[337px]">
-              <div className="mini-title">Build Your Career</div>
+              <div className="mini-title">Invest and manage money</div>
               <div className=" text-[34px] text-black leading-[51px]">
-                Get Free <span className="shape-bg">Courses</span>
+                Parental <span className="shape-bg">Supervision</span>
               </div>
               <div className=" mt-6 mb-12">
-                Learn at your own pace, move the between multiple courses.
+                With parental supervision, you can manage, spend and invest your own money
               </div>
               <a href="#" className="btn btn-black">
-                Contact Us
+                Start Learning
               </a>
             </div>
           </div>

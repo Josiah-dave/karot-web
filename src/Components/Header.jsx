@@ -47,7 +47,7 @@ const Header = () => {
                     </li>
 
                  
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <a href="#">Pages</a>
                       <ul className="sub-menu">
                         <li>
@@ -126,7 +126,7 @@ const Header = () => {
                           </Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to={"/react-templates/edumim/contacts"}>
                         Contacts

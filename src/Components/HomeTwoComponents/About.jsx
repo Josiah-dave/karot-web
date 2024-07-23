@@ -1,61 +1,57 @@
 import React from "react";
-import about3 from "../../assets/images/all-img/about3.png";
 const About = () => {
   return (
     <div className="about-area section-padding">
       <div className="container">
         <div className="grid grid-cols-12 gap-[30px]">
           <div className="xl:col-span-7 lg:col-span-6 col-span-12">
-            <img src={about3} alt="" className=" block w-full" />
+            <img src={'https://res.cloudinary.com/karotcloud/image/upload/v1720733292/Landing%20page%20images/tktqic5dky22rk9j3csq.png'} alt="" className=" block w-full" />
           </div>
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
-            <div className="mini-title">About Edumim</div>
+            <div className="mini-title">Teach Your Kids</div>
             <h4 className="column-title ">
-              We Provide The Best Online{" "}
-              <span className="shape-bg">Education</span>
+              Teach your kids by <span className="shape-bg">Investment</span> doing
             </h4>
             <div className=" mb-8">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour.
+              Parents and kids can invest in stock markets and public companies. Get your kids on the right path to success. It starts with karot
             </div>
             <div className="space-y-8">
               <div className="progressbar-group">
                 <div className="flex justify-between" data-width="85%">
                   <span className="block text-black font-semibold mb-2">
-                    Business Studies
+                    Investment with karot
                   </span>
                   <span className=" block mb-2 text-black font-semibold">
-                    86%
+                    100%
                   </span>
                 </div>
                 <div className="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative">
                   <div
                     className="ani  h-[6px] bg-primary block absolute left-0 top-1/2 -translate-y-1/2 "
-                    style={{ width: "86%" }}
+                    style={{ width: "100%" }}
                   ></div>
                 </div>
               </div>
               <div className="progressbar-group">
                 <div className="flex justify-between" data-width="67%">
                   <span className="block text-black font-semibold mb-2">
-                    Marketing
+                    Steeze after investment
                   </span>
                   <span className=" block mb-2 text-black font-semibold">
-                    67%
+                    100%
                   </span>
                 </div>
                 <div className="rounded-[2px] overflow-hidden bg-opacity-10 bg-black h-[6px] relative">
                   <div
                     className="ani  h-[6px] bg-secondary block absolute left-0 top-1/2 -translate-y-1/2 "
-                    style={{ width: "67%" }}
+                    style={{ width: "100%" }}
                   ></div>
                 </div>
               </div>
               <div className="progressbar-group">
                 <div className="flex justify-between" data-width="95%">
                   <span className="block text-black font-semibold mb-2">
-                    Design & Development
+                    Composure upon investment
                   </span>
                   <span className=" block mb-2 text-black font-semibold">
                     95%

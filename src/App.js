@@ -32,7 +32,7 @@ const Parents = Loadable({
   loading: Loader,
 });
 const Students = Loadable({
-  loader: () => import("../src/Components/Home/HomeThree"),
+  loader: () => import("../src/Components/Home/Students"),
   loading: Loader,
 });
 

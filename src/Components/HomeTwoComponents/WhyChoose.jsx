@@ -7,16 +7,13 @@ const WhyChoose = () => {
       <div className="container">
         <div className="lg:grid grid-cols-12 lg:gap-10  space-y-6 lg:space-y-0">
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
-            <div className="mini-title">Why Choose Edumim</div>
+            <div className="mini-title">Incentive Chores</div>
             <h4 className="column-title ">
-              Grow Your Skill, Define Your {' '}
-              <span className="shape-bg pb-4">Bright Future</span>
+            Track all your children's chores with {' '}
+              <span className="shape-bg pb-4">Karot</span>
             </h4>
             <div className=" mb-8">
-              Learn at your own pace, move between multiple courses, or switch
-              to a different course. Earn a certificate for every learning
-              program that you complete at no additional cost multiple courses
-              this year.
+            Get your kids involved in the process and watch the chores get done while rewarding them for completing tasks.
             </div>
             <div>
               <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px] md:block">

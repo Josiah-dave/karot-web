@@ -10,6 +10,7 @@ import HomeTwoHeader from "../HomeTwoComponents/HomeTwoHeader";
 import Video from "../HomeTwoComponents/Video";
 import WhyChoose from "../HomeTwoComponents/WhyChoose";
 import Header from "../Header";
+import Banner from "../Banner";
 
 const HomeTwo = () => {
   useEffect(() => {
@@ -18,14 +19,15 @@ const HomeTwo = () => {
   return (
     <section className="font-gilroy font-medium text-gray text-lg leading-[27px]">
       <Header/>
-      <Categories />
+      <Banner />
+      {/* <Categories /> */}
       <About />
-      <Courses />
-      <Counter />
-      <Video />
+      {/* <Courses /> */}
+      {/* <Counter /> */}
+      {/* <Video /> */}
       <WhyChoose />
-      <Achivement />
-      <BlogArticle />
+      {/* <Achivement /> */}
+      {/* <BlogArticle /> */}
       <Footer />
     </section>
   );

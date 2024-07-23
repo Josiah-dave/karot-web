@@ -4,6 +4,7 @@ import ContactForm from "../ContactForm";
 import Footer from "../Footer";
 import Header from "../Header";
 import PageBanner from "../PageBanner";
+import Accordion from "../HomeThreeComponents/Accordion";
 
 const ContactUs = () => {
   return (
@@ -66,6 +67,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+      <Accordion />
       <Footer />
     </>
   );

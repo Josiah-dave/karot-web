@@ -24,10 +24,9 @@ function HomeThree() {
       {/* <CourseSection /> */}
       {/* <Team /> */}
       <Testimonial />
-      <Event />
+      {/* <Event /> */}
       <CourseBlock />
-      <Accordion />
-      <BlogArticle />
+      {/* <BlogArticle /> */}
       <Footer />
     </>
   );

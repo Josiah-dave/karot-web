@@ -86,7 +86,7 @@ const Accordion = () => {
             </ul>
           </div>
           <div>
-            <img src={faq} alt="" />
+            <img src='https://res.cloudinary.com/karotcloud/image/upload/v1721716595/card_1_ynfikm.png' alt="" />
           </div>
         </div>
       </div>
