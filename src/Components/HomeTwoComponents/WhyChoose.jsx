@@ -1,5 +1,5 @@
 import React from "react";
-import { about4, miniHeart, miniTarget } from "../../constant/images";
+import { miniHeart, miniTarget } from "../../constant/images";
 
 const WhyChoose = () => {
   return (
@@ -38,7 +38,7 @@ const WhyChoose = () => {
           </div>
           <div className="xl:col-span-7 lg:col-span-6 col-span-12 ">
             <img
-              src={about4}
+              src='https://res.cloudinary.com/karotcloud/image/upload/v1720733292/Landing%20page%20images/bvpvxhyngcnroyqrwd5n.png'
               alt=""
               className=" block w-full object-contain "
             />
