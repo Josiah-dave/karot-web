@@ -10,7 +10,7 @@ const ContactUs = () => {
   return (
     <>
       <Header />
-      <PageBanner title={"Contact Us"} pageName="Contact" />
+      <PageBanner title={"Contact Us"} pageName="Contact Us" />
       <div class="nav-tab-wrapper tabs  section-padding">
         <div class="container">
           <div class=" grid grid-cols-12 gap-[30px]">
@@ -32,7 +32,7 @@ const ContactUs = () => {
                   </div>
                   <div class="flex-1">
                     <h4 class=" lg:text-xl text-lg mb-1">Email-Us :</h4>
-                    <div>Contactyourmail@gmail.com</div>
+                    <div>info@getkarot.com</div>
                   </div>
                 </li>
                 <li class="flex">
@@ -43,7 +43,7 @@ const ContactUs = () => {
                   </div>
                   <div class="flex-1">
                     <h4 class=" lg:text-xl text-lg mb-1">Call Us:</h4>
-                    <div>+88012 2910 1781, +88019 6128 1689</div>
+                    <div>+234 111 222 333, +234 000 000 000</div>
                   </div>
                 </li>
                 <li class="flex">
@@ -54,7 +54,7 @@ const ContactUs = () => {
                   </div>
                   <div class="flex-1">
                     <h4 class="lg:text-xl text-lg mb-1">Office :</h4>
-                    <div>Mountain Green Road 2389, NY, USA</div>
+                    <div>Akowonjo Lagos, Nigeria.</div>
                   </div>
                 </li>
               </ul>
